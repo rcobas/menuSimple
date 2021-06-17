@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menuPpal">
+
+    <item
+        android:id="@+id/itemperro"
+        android:title="Perros"
+        app:showAsAction="collapseActionView"></item>
+    <item
+        android:id="@+id/itemgato"
+        android:title="Gatos"
+        app:showAsAction="collapseActionView">
+        <menu>
+            <item
+                android:id="@+id/itemGato1"
+                android:title="Alimentación"></item>
+            <item
+                android:id="@+id/itemGato2"
+                android:title="Vacunas"></item>
+        </menu>
+    </item>
+
+</menu>
